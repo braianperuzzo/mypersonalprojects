@@ -59,21 +59,21 @@
             // abrirToolStripMenuItem
             // 
             abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            abrirToolStripMenuItem.Size = new Size(180, 22);
+            abrirToolStripMenuItem.Size = new Size(105, 22);
             abrirToolStripMenuItem.Text = "Abrir";
             abrirToolStripMenuItem.Click += AbrirClick;
             // 
             // salvarToolStripMenuItem
             // 
             salvarToolStripMenuItem.Name = "salvarToolStripMenuItem";
-            salvarToolStripMenuItem.Size = new Size(180, 22);
+            salvarToolStripMenuItem.Size = new Size(105, 22);
             salvarToolStripMenuItem.Text = "Salvar";
             salvarToolStripMenuItem.Click += SalvarClick;
             // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(180, 22);
+            sairToolStripMenuItem.Size = new Size(105, 22);
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += SairClick;
             // 
@@ -90,6 +90,7 @@
             txbJanela.Name = "txbJanela";
             txbJanela.Size = new Size(899, 635);
             txbJanela.TabIndex = 1;
+            txbJanela.TextChanged += txbJanela_TextChanged;
             // 
             // saveFileDialog1
             // 

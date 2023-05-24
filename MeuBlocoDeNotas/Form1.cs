@@ -47,8 +47,20 @@ namespace MeuBlocoDeNotas
 
         private void AbrirOK(object sender, CancelEventArgs e)
         {
-           /*string sCaminho2 = openFileDialog1.FileName;
-            openFileDialog1.OpenFile(sCaminho2);*/
+            string sCaminho2 = openFileDialog1.FileName;
+            using (FileStream fileStream = File.OpenRead(sCaminho2))
+            {
+                using (StreamReader reader = new StreamReader(fileStream))
+                {
+                    string conteudo = reader.ReadToEnd();
+                    txbJanela.Text = conteudo;
+                }
+            }
+        }
+
+        private void txbJanela_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
