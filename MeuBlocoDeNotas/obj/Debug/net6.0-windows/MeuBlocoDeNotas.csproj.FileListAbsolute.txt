@@ -1,0 +1,17 @@
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.csproj.AssemblyReference.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.csproj.GenerateResource.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.AssemblyInfoInputs.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.AssemblyInfo.cs
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.csproj.CoreCompileInputs.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\bin\Debug\net6.0-windows\MeuBlocoDeNotas.exe
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\bin\Debug\net6.0-windows\MeuBlocoDeNotas.deps.json
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\bin\Debug\net6.0-windows\MeuBlocoDeNotas.runtimeconfig.json
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\bin\Debug\net6.0-windows\MeuBlocoDeNotas.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\bin\Debug\net6.0-windows\MeuBlocoDeNotas.pdb
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.frmInicio.resources
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\refint\MeuBlocoDeNotas.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.pdb
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\MeuBlocoDeNotas.genruntimeconfig.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuBlocoDeNotas\obj\Debug\net6.0-windows\ref\MeuBlocoDeNotas.dll
