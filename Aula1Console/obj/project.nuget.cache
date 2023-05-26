@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TgmO2kxMdRKl+PzAyy1cpXm4XgOmHoMg2yqrdU7ZXTO93j+zmPTed9aXopAJGIcnndMjdw2kUn/o1wyMDepegw==",
+  "dgSpecHash": "3polH+pD6hgcNLn18HPh8s81/qgYF0Xz20Usba5mO7eIa5a+Z5wL1XvLw7Zui5aYBTCh+iH0Ovwpv1BYGkQbUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\Aula1Console\\Aula1Console.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
