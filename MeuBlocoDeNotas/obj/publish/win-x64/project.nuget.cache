@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ctvOxwM5khxMRUAyi/7IhSomfDYw/rI7VYE5OX/1owyJDFdHDNO5qJB03jnBkNPr+KbRr47Q2wUpUgNtmTPIrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuBlocoDeNotas\\MeuBlocoDeNotas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
