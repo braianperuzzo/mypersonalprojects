@@ -15,3 +15,20 @@ C:\Users\braian.peruzzo\Documents\mypersonalprojects\ExibirImagensAutomaticament
 C:\Users\braian.peruzzo\Documents\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.pdb
 C:\Users\braian.peruzzo\Documents\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.genruntimeconfig.cache
 C:\Users\braian.peruzzo\Documents\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ref\ExibirImagensAutomaticamente.dll
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\bin\Debug\net6.0\ExibirImagensAutomaticamente.exe
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\bin\Debug\net6.0\ExibirImagensAutomaticamente.deps.json
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\bin\Debug\net6.0\ExibirImagensAutomaticamente.runtimeconfig.json
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\bin\Debug\net6.0\ExibirImagensAutomaticamente.dll
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\bin\Debug\net6.0\ExibirImagensAutomaticamente.pdb
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.csproj.AssemblyReference.cache
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.AssemblyInfoInputs.cache
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.AssemblyInfo.cs
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.csproj.CoreCompileInputs.cache
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.csproj.CopyComplete
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.dll
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\refint\ExibirImagensAutomaticamente.dll
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.pdb
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ExibirImagensAutomaticamente.genruntimeconfig.cache
+C:\Users\bperu\Desktop\Estudo em Programação\mypersonalprojects\ExibirImagensAutomaticamente\obj\Debug\net6.0\ref\ExibirImagensAutomaticamente.dll

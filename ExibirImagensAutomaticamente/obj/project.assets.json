@@ -55,23 +55,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\": {},
+    "C:\\Users\\bperu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\ExibirImagensAutomaticamente\\ExibirImagensAutomaticamente.csproj",
+      "projectUniqueName": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\ExibirImagensAutomaticamente\\ExibirImagensAutomaticamente.csproj",
       "projectName": "ExibirImagensAutomaticamente",
-      "projectPath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\ExibirImagensAutomaticamente\\ExibirImagensAutomaticamente.csproj",
-      "packagesPath": "C:\\Users\\braian.peruzzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\ExibirImagensAutomaticamente\\obj\\",
+      "projectPath": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\ExibirImagensAutomaticamente\\ExibirImagensAutomaticamente.csproj",
+      "packagesPath": "C:\\Users\\bperu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\ExibirImagensAutomaticamente\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\braian.peruzzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bperu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

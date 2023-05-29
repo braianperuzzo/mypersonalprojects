@@ -7,8 +7,6 @@ using Newtonsoft.Json;
 
 class ExibirImagensAutomaticamente
 {
-    static bool bMaisImagens = true; // Declara a variável fora do loop
-
     static async Task Main(string[] args)
     {
         while (true)
@@ -90,7 +88,7 @@ class ExibirImagensAutomaticamente
                 DisplayImages(imageUrls);
             }
 
-            while (bMaisImagens)
+            while (true)
             {
                 Console.WriteLine("Deseja ver mais imagens?");
                 Console.WriteLine("Digite o número:\r\n 1 - para 'Sim'\r\n 2 - para 'Não'");
@@ -107,9 +105,14 @@ class ExibirImagensAutomaticamente
                     continue;
                 }
                 else if (sMaisImagens == "2")
+                {
                     ExitProgram();
-
-                bMaisImagens = false; // Atualiza o valor da variável
+                    return;
+                }
+                else
+                {
+                    break;
+                }
             }
         }
     }
@@ -192,5 +195,5 @@ class UnsplashImage
 
 class UnsplashImageUrls
 {
-    public string ? Regular { get; set; }
+    public string? Regular { get; set; }
 }

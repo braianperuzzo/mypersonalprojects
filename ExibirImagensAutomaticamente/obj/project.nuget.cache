@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "herw0ybRui4WjSOkhNhM2WHV29ts1dBD28sJSI8yhJIpgHDTxLn5QFPKCO7690rVaiOknWbDhcOMhjpYhSNVIA==",
+  "dgSpecHash": "BCFfa1TqIm95Huy5i/EIA7O77T08R6CgTJeoYU6VTLejOjK0uulxYyvdoWvXQCStrixXn/qmC48jrJm6ejFSdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\ExibirImagensAutomaticamente\\ExibirImagensAutomaticamente.csproj",
+  "projectFilePath": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\ExibirImagensAutomaticamente\\ExibirImagensAutomaticamente.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\bperu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
