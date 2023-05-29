@@ -1,16 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TrJk/v9ziTeYWaL8U7shyjtDPOG8OWVOm+ZZUgMZTdamlknUZiSoSNusp2q7wLGJhwCcXtKX2ezULjnkwTVZNw==",
+  "dgSpecHash": "ePKDKoJXRjcnpS2qdAAx/XsRQepb/w5H50TXjILbYnAeIDe0ng5jSwn3xgdxEpMyckjeYhPcYVpCLx0JXBye2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\bperu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
-    "C:\\Users\\bperu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
-    "C:\\Users\\bperu\\.nuget\\packages\\microsoft.extensions.primitives\\2.0.0\\microsoft.extensions.primitives.2.0.0.nupkg.sha512",
-    "C:\\Users\\bperu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\bperu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.4.0\\system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
-    "C:\\Users\\bperu\\.nuget\\packages\\xlocalizer.translate\\1.0.0\\xlocalizer.translate.1.0.0.nupkg.sha512",
-    "C:\\Users\\bperu\\.nuget\\packages\\xlocalizer.translate.mymemorytranslate\\1.0.1\\xlocalizer.translate.mymemorytranslate.1.0.1.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

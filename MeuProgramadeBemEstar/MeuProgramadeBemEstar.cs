@@ -6,8 +6,7 @@ namespace MeuProgramadeBemEstar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá!"); // Exibe uma mensagem de saudação
-            Console.WriteLine("Como você está?"); // Pergunta como o usuário está
+            Console.WriteLine("Olá!\r\nComo você está?\r\n"); // Exibe uma mensagem de saudação
 
             while (true) // Loop infinito para manter o programa em execução
             {
@@ -42,7 +41,7 @@ namespace MeuProgramadeBemEstar
             {
                 Console.WriteLine("Poxa :/ que pena. Mas me conta, o que aconteceu?"); // Exibe uma mensagem de resposta para um estado de saúde ruim
                 string sEstadodeSaudeRuim = Console.ReadLine() ?? string.Empty; // Lê a entrada do usuário e atribui à variável sEstadodeSaudeRuim. Caso seja nulo, atribui uma string vazia.
-                Console.WriteLine("Prontinho! Registrei seu estado de saúde atual."); // Exibe uma mensagem informando que o estado de saúde foi registrado
+                Console.WriteLine("Certo, vou registrar essa informação em nosso banco de dados."); // Exibe uma mensagem informando que o estado de saúde foi registrado
 
                 int iContador = 5; // Tempo em segundos
 

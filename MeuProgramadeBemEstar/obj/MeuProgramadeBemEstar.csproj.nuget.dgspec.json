@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj": {}
+    "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj": {
+    "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj",
+        "projectUniqueName": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj",
         "projectName": "MeuProgramadeBemEstar",
-        "projectPath": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj",
-        "packagesPath": "C:\\Users\\bperu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bperu\\Desktop\\Estudo em Programação\\mypersonalprojects\\MeuProgramadeBemEstar\\obj\\",
+        "projectPath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuProgramadeBemEstar\\MeuProgramadeBemEstar.csproj",
+        "packagesPath": "C:\\Users\\braian.peruzzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\MeuProgramadeBemEstar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bperu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\braian.peruzzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,16 +44,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-            "XLocalizer.Translate.MyMemoryTranslate": {
-              "target": "Package",
-              "version": "[1.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
