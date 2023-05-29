@@ -122,6 +122,7 @@ class ExibirImagensAutomaticamente
         }
     }
 
+    //API de imagens
     static async Task<List<string>> GetRandomImages(HttpClient client, string query)
     {
         const string apiKey = "JCWg96jCaiw-LKYWdidKZCzOLxv8XwFprGy8AIVDKhk";
