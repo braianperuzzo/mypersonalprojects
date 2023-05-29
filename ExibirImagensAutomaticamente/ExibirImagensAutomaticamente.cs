@@ -7,24 +7,47 @@ using Newtonsoft.Json;
 
 class ExibirImagensAutomaticamente
 {
+    static bool bMaisImagens = true; // Declara a variável fora do loop
+
     static async Task Main(string[] args)
     {
-        string sImagens;
-        string sTiposImagens;
-
-        do
+        while (true)
         {
             Console.WriteLine("Você gostaria de ver algumas imagens que podem alegrar seu dia?");
             Console.WriteLine("Digite o número:\r\n 1 - para 'Sim'\r\n 2 - para 'Não'");
-            sImagens = Console.ReadLine() ?? string.Empty;
+            string? sImagens = Console.ReadLine() ?? string.Empty;
 
             if (sImagens == "1")
             {
-                Console.WriteLine("Quais tipos de Imagem você gostaria de ver?");
-                Console.WriteLine("Digite o número:\r\n 1 - para 'Animais Fofos'\r\n 2 - para 'Paisagens'\r\n 3 - para 'Calmantes'\r\n 4 - para 'Variadas'\r\n 5 - para 'Céu Noturno'\r\n 6 - para 'Espaço e Estrelas'\r\n 7 - para 'Aleatórias'\r\n 8 - para 'Não quero mais ver imagens'");
-                sTiposImagens = Console.ReadLine() ?? string.Empty;
+                await ExibirImagens();
+            }
+            else if (sImagens != "1" && sImagens != "2")
+            {
+                if (string.IsNullOrEmpty(sImagens)) // Se a entrada do usuário estiver vazia
+                    Console.WriteLine("Opa! Acho que faltou algo. Por favor, digite uma opção :s"); // Exibe uma mensagem de aviso informando que algo está faltando
+                else
+                    Console.WriteLine("Opa! O número " + sImagens + " não é uma opção válida :s"); // Exibe uma mensagem de aviso informando que a opção não é válida
 
-                HttpClient client = new HttpClient();
+                continue;
+            }
+            else
+            {
+                ExitProgram();
+                break;
+            }
+        }
+    }
+
+    static async Task ExibirImagens()
+    {
+        while (true)
+        {
+            Console.WriteLine("Quais tipos de Imagem você gostaria de ver?");
+            Console.WriteLine("Digite o número:\r\n 1 - para 'Animais Fofos'\r\n 2 - para 'Paisagens'\r\n 3 - para 'Calmantes'\r\n 4 - para 'Variadas'\r\n 5 - para 'Céu Noturno'\r\n 6 - para 'Espaço e Estrelas'\r\n 7 - para 'Aleatórias'\r\n 8 - para 'Não quero mais ver imagens'");
+            string sTiposImagens = Console.ReadLine() ?? string.Empty;
+
+            using (HttpClient client = new HttpClient())
+            {
                 List<string> imageUrls = new List<string>();
 
                 switch (sTiposImagens)
@@ -51,26 +74,51 @@ class ExibirImagensAutomaticamente
                         imageUrls = await GetRandomImages(client, "random");
                         break;
                     case "8": // Não quero mais ver imagens
-                        break;
+                        ExitProgram();
+                        return;
                     default:
-                        Console.WriteLine("Opção inválida.");
-                        break;
+                        {
+                            if (string.IsNullOrEmpty(sTiposImagens)) // Se a entrada do usuário estiver vazia
+                                Console.WriteLine("Opa! Acho que faltou algo. Por favor, digite uma opção :s"); // Exibe uma mensagem de aviso informando que algo está faltando
+                            else
+                                Console.WriteLine("Opa! O número " + sTiposImagens + " não é uma opção válida :s"); // Exibe uma mensagem de aviso informando que a opção não é válida
+
+                            continue;
+                        }
                 }
 
                 DisplayImages(imageUrls);
-
-                Console.WriteLine("Deseja ver mais imagens? (Digite 'S' para Sim ou qualquer outra tecla para Sair)");
-                sImagens = Console.ReadLine() ?? string.Empty;
             }
 
-        } while (sImagens.ToUpper() == "S");
+            while (bMaisImagens)
+            {
+                Console.WriteLine("Deseja ver mais imagens?");
+                Console.WriteLine("Digite o número:\r\n 1 - para 'Sim'\r\n 2 - para 'Não'");
+                string sMaisImagens = Console.ReadLine() ?? string.Empty;
+
+                if (string.IsNullOrEmpty(sMaisImagens))
+                {
+                    Console.WriteLine("Opa! Acho que faltou algo. Por favor, digite uma opção :s");
+                    continue;
+                }
+                else if (sMaisImagens != "1" && sMaisImagens != "2")
+                {
+                    Console.WriteLine("Opa! O número " + sMaisImagens + " não é uma opção válida :s");
+                    continue;
+                }
+                else if (sMaisImagens == "2")
+                    ExitProgram();
+
+                bMaisImagens = false; // Atualiza o valor da variável
+            }
+        }
     }
 
     static void DisplayImages(List<string> imageUrls)
     {
-        foreach (string imageUrl in imageUrls)
+        for (int i = 0; i < imageUrls.Count; i++)
         {
-            OpenUrlInBrowser(imageUrl);
+            OpenUrlInBrowser(imageUrls[i]);
         }
     }
 
@@ -79,22 +127,31 @@ class ExibirImagensAutomaticamente
         const string apiKey = "JCWg96jCaiw-LKYWdidKZCzOLxv8XwFprGy8AIVDKhk";
         const string apiUrl = "https://api.unsplash.com/photos/random?count={0}&query={1}&client_id={2}";
 
-        Console.WriteLine("Quantas imagens você deseja exibir?");
+        Console.WriteLine("Quantas imagens você deseja visualizar?");
         int imageCount;
         while (!int.TryParse(Console.ReadLine(), out imageCount) || imageCount < 1)
         {
-            Console.WriteLine("Quantidade inválida. Digite um número inteiro maior que zero.");
+            Console.WriteLine("Digite um número válido (maior que 0):");
         }
 
-        string requestUrl = string.Format(apiUrl, imageCount, query, apiKey);
-        string response = await client.GetStringAsync(requestUrl);
-        List<UnsplashImage> images = JsonConvert.DeserializeObject<List<UnsplashImage>>(response);
+        string url = string.Format(apiUrl, imageCount, query, apiKey);
+
+        HttpResponseMessage response = await client.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+
+        string json = await response.Content.ReadAsStringAsync();
+        List<UnsplashImage>? images = JsonConvert.DeserializeObject<List<UnsplashImage>>(json);
 
         List<string> imageUrls = new List<string>();
-
-        foreach (UnsplashImage image in images)
+        if (images != null)
         {
-            imageUrls.Add(image.Urls.Regular);
+            foreach (UnsplashImage image in images)
+            {
+                if (image.Urls != null && image.Urls.Regular != null)
+                {
+                    imageUrls.Add(image.Urls.Regular);
+                }
+            }
         }
 
         return imageUrls;
@@ -108,19 +165,31 @@ class ExibirImagensAutomaticamente
         }
         catch (Exception ex)
         {
-            Console.WriteLine("Erro ao abrir a URL: " + ex.Message);
+            Console.WriteLine("Não foi possível abrir o navegador: " + ex.Message);
         }
     }
 
-    class UnsplashImage
+    static void ExitProgram()
     {
-        [JsonProperty("urls")]
-        public UnsplashUrls Urls { get; set; }
-    }
+        Console.WriteLine("Certo, agradeço por ter chegado até aqui.");
 
-    class UnsplashUrls
-    {
-        [JsonProperty("regular")]
-        public string Regular { get; set; }
+        for (int i = 5; i > 0; i--)
+        {
+            Console.SetCursorPosition(0, Console.CursorTop);
+            Console.Write("Como não há nada no que eu possa te ajudar, estarei encerrando esse programa em " + i + " segundos.");
+            Task.Delay(1000).Wait();
+        }
+
+        Environment.Exit(0);
     }
+}
+
+class UnsplashImage
+{
+    public UnsplashImageUrls? Urls { get; set; }
+}
+
+class UnsplashImageUrls
+{
+    public string ? Regular { get; set; }
 }
