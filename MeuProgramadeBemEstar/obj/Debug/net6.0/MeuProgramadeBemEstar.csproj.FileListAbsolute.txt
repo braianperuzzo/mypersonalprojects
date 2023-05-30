@@ -52,3 +52,5 @@ C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuProgramadeBemEstar\obj\D
 C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuProgramadeBemEstar\obj\Debug\net6.0\MeuProgramadeBemEstar.pdb
 C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuProgramadeBemEstar\obj\Debug\net6.0\MeuProgramadeBemEstar.genruntimeconfig.cache
 C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuProgramadeBemEstar\obj\Debug\net6.0\ref\MeuProgramadeBemEstar.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuProgramadeBemEstar\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\MeuProgramadeBemEstar\obj\Debug\net6.0\MeuProgramadeBemEstar.csproj.CopyComplete
