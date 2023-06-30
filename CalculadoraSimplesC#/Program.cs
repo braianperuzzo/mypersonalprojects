@@ -10,7 +10,8 @@ namespace CalculadoraSimplesC_
     {
         static void Main(string[] args)
         {
-           while{
+            while(true)
+                 {
 
                 /* IDEIA FUTURA PARA DIGITAÇÃO LIVRE DA FÓRMULA
                 Console.WriteLine("Digite a fórmula:");
@@ -22,7 +23,7 @@ namespace CalculadoraSimplesC_
                 string sPedido = sPartes[1];
                 
                 Console.WriteLine("Resultado da operação: {0} {1}", sEmpresa, sPedido);*/
-                                
+
                 Console.WriteLine("Qual operação deseja fazer?:");
                 Console.WriteLine("1 - Adição");
                 Console.WriteLine("2 - Subtração");
@@ -67,8 +68,8 @@ namespace CalculadoraSimplesC_
                             break;
                         }
 
-            }
-
+                }
+            
                 Console.WriteLine("Resultado da operação: {0} {1} {2} = {3}", num1, operador, num2, resultado);
             }
         }
