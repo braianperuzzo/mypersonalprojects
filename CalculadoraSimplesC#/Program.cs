@@ -59,7 +59,7 @@ namespace CalculadoraSimplesC_
 
                 }
             
-                Console.WriteLine("Resultado da operação: {0} {1} {2} = {3}", num1, operador, num2, resultado);
+                Console.WriteLine("Resultado da operação é: {0} {1} {2} = {3}", num1, operador, num2, resultado);
             }
         }
     }
