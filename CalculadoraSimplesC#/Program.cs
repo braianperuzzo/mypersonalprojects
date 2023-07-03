@@ -13,17 +13,6 @@ namespace CalculadoraSimplesC_
             while(true)
                  {
 
-                /* IDEIA FUTURA PARA DIGITAÇÃO LIVRE DA FÓRMULA
-                Console.WriteLine("Digite a fórmula:");
-
-                string formula = Console.ReadLine();
-
-                string[] sPartes = formula.Split('+');
-                string sEmpresa = sPartes[0];
-                string sPedido = sPartes[1];
-                
-                Console.WriteLine("Resultado da operação: {0} {1}", sEmpresa, sPedido);*/
-
                 Console.WriteLine("Qual operação deseja fazer?:");
                 Console.WriteLine("1 - Adição");
                 Console.WriteLine("2 - Subtração");
