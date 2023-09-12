@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jKlIZuZ2Lz1xQudlfsvsyUc3RJogUs+bOXbe7IaDcFF3gmIuQuodwAgekIgCO5SRjgCzelcIkiTVeqU9K8LAeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\braian.peruzzo\\Documents\\mypersonalprojects\\VerificandoNumeros\\VerificandoNumeros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\braian.peruzzo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

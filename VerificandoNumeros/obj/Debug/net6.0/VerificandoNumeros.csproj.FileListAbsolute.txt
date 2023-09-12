@@ -1,0 +1,15 @@
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.csproj.AssemblyReference.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.AssemblyInfoInputs.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.AssemblyInfo.cs
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.csproj.CoreCompileInputs.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\bin\Debug\net6.0\VerificandoNumeros.exe
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\bin\Debug\net6.0\VerificandoNumeros.deps.json
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\bin\Debug\net6.0\VerificandoNumeros.runtimeconfig.json
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\bin\Debug\net6.0\VerificandoNumeros.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\bin\Debug\net6.0\VerificandoNumeros.pdb
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\refint\VerificandoNumeros.dll
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.pdb
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\VerificandoNumeros.genruntimeconfig.cache
+C:\Users\braian.peruzzo\Documents\mypersonalprojects\VerificandoNumeros\obj\Debug\net6.0\ref\VerificandoNumeros.dll
